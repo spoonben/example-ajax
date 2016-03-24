@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example Fetch</title>
+    <link rel="stylesheet" type="text/css" href="css/example.css">
+</head>
+<body>
+<h1>GET/POST/PATCH Examples using Fetch</h1>
+<!-- GET people -->
+<section id="get-example">
+    <ul class="people">
+    </ul>
+    <button id="get-people">Get Some People!</button>
+</section>
+
+<hr>
+<!-- POST people -->
+<section id="post-example">
+    <form id="new-person">
+        <input type="text" name="name" placeholder="Name"></input>
+        <input type="text" name="age" placeholder="Age"></input>
+        <input type="text" name="email" placeholder="Email"></input>
+        <input type="text" name="eyeColor" placeholder="Eye Color"></input>
+        <input type="text" name="gender" placeholder="Gender"></input>
+        <input type="text" name="phoneNumber" placeholder="Phone Number"></input>
+    </form>
+    <button type="submit" id="post-person">Post a person!</button>
+</section>
+
+<hr>
+<!-- PATCH people -->
+<section id="patch-example">
+    <p>This is your homework</p>
+    <button id="patch-person">Patch a person!</button>
+</section>
+
+
+<script type="text/javascript" src="node_modules/whatwg-fetch/fetch.js"></script>
+<script type="text/javascript" src="js/common-functions"></script>
+<script type="text/javascript" src="js/example-fetch.js"></script>
+</body>
+</html>

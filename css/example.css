@@ -1,0 +1,19 @@
+section {
+    margin:20px;
+}
+#new-person input {
+    display:block;
+    margin: 10px 0;
+    font-size: 14px;
+}
+.people {
+    list-style: none;
+    padding:0;
+}
+.people li {
+    display: block;
+    margin: 5px;
+}
+button {
+    font-size: 14px;
+}
